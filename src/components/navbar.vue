@@ -83,7 +83,6 @@ import { AuthService } from '../services/AuthService'
 import { AppState } from '../AppState'
 import { computed, reactive } from 'vue'
 export default {
-  name: 'Navbar',
   setup() {
     const state = reactive({
       dropOpen: false
